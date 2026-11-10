@@ -11,3 +11,9 @@ jobs:
     steps:
       - run: ls -la
       - run: echo "Sawadeee"
+  another-work:
+    name: Another Work
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo 'another-work'
